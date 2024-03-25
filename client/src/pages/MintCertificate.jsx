@@ -79,11 +79,11 @@ const MintCertificate = () => {
               <div className="text-green-600 font-semibold text-lg">
                 <p className=" text-center">Successfully minted certificate!</p>
 
-                <Link to={`/certificate/view/${id}`}>
+                <a to={`/certificate/view/${id}`} target="_blank">
                   <p className="border border-y-purpleColor bg-white p-3 rounded-lg text-center text-purpleColor mt-6 border-purpleColor cursor-pointer">
                     View Certificate
                   </p>
-                </Link>
+                </a>
                 <a href={result}>
                   <p className="border border-y-purpleColor bg-white p-3 rounded-lg text-center text-purpleColor mt-2 border-purpleColor cursor-pointer">
                     View Transaction
