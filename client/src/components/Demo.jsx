@@ -341,7 +341,7 @@ function Demo({ title, name, date, hash, logo }) {
                 fill="black"
                 id="bodySubTitle"
               >
-                Will be Valid for Next
+                Valid for
               </text>
               <text x="50%" y="360" textAnchor="middle" fill="black" id="date">
                 {date}
