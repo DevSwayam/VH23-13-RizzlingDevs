@@ -89,7 +89,7 @@ const Register = ({ setIsLogin }) => {
 
             <div className="w-full py-2 border-b border-gray-300 flex items-center gap-2">
               <input
-                type="text"
+                type="password"
                 required
                 value={password}
                 onChange={(e) => setpassword(e.target.value)}
