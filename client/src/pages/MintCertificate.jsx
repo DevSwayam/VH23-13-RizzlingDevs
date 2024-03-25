@@ -41,6 +41,7 @@ const MintCertificate = () => {
 
     const json = await response.json();
     if (json.success) {
+
       console.log(
         "Name: ",
         json.certificate.candidateName,
@@ -60,6 +61,10 @@ const MintCertificate = () => {
       alert("Login with proper credentials");
     }
   };
+
+  const sendCertificateOnMail = async()=>{
+    
+  }
 
   return (
     <div className="w-full flex flex-col gap-8 items-center justify-center pb-40 h-screen">
