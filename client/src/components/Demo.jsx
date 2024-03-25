@@ -99,7 +99,7 @@ function Demo({ title, name, date, hash, logo }) {
               fill="black"
               id="bodySubTitle"
             >
-              on
+              Will be Valid for Next 
             </text>
             <text x="500" y="410" text-anchor="middle" fill="black" id="date">
               {date}
